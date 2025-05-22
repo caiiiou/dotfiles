@@ -1,0 +1,8 @@
+
+# Setting PATH for Python 3.12
+# The original version is saved in .zprofile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+export PATH
+
+# Created by `pipx` on 2024-09-01 03:57:02
+export PATH="$PATH:/Users/caillou/.local/bin"
