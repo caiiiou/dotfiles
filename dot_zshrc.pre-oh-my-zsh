@@ -1,0 +1,6 @@
+
+export PATH=$PATH:/Users/caillou/.spicetify
+export PATH=$PATH:/opt/homebrew/bin
+export PATH="/opt/homebrew/bin:$PATH"
+PATH="/usr/local/bin:$PATH"
+
