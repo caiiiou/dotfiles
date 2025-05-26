@@ -111,7 +111,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 #run random pokemon script
-zsh ~/Scripts/random_pokemon.zsh
+zsh ~/Scripts/random_arceus.zsh
 
 #print lake trio
 #pokemon-colorscripts --no-title -rn azelf,mesprit,uxie
