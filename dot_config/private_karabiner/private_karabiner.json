@@ -58,7 +58,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "n",
                                     "modifiers": {
                                         "mandatory": ["right_option"],
                                         "optional": ["any"]
@@ -69,7 +69,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "m",
                                     "modifiers": {
                                         "mandatory": ["right_option"],
                                         "optional": ["any"]
@@ -80,7 +80,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": ["right_option"],
                                         "optional": ["any"]
