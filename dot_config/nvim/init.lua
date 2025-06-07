@@ -1090,4 +1090,4 @@ require("lazy").setup({
 --
 -- Set line number color
 vim.api.nvim_set_hl(0, "LineNr", { fg = "#FBAFD2", bold = false })
-vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#6395EE", bold = true })
+vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#89DCEB", bold = true })
