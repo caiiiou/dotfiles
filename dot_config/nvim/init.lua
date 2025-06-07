@@ -1089,4 +1089,4 @@ require("lazy").setup({
 -- vim: ts=2 sts=2 sw=2 et
 --
 -- Set line number color
-vim.api.nvim_set_hl(0, "LineNr", { fg = "#d2a5bc", bold = false })
+vim.api.nvim_set_hl(0, "LineNr", { fg = "#DBB2D1", bold = false })
