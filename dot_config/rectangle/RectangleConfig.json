@@ -89,7 +89,7 @@
 
     },
     "gapSize" : {
-      "float" : 0
+      "float" : 7
     },
     "hapticFeedbackOnSnap" : {
       "int" : 0
