@@ -117,7 +117,7 @@ source $HOME/.cargo/env
 alias cmatrix="cmatrix -r"
 
 #LSD alias
-#alias ls="lsd"
+alias ls="lsd"
 
 #autosuggestions
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
