@@ -89,7 +89,7 @@
 
     },
     "gapSize" : {
-      "float" : 7
+      "float" : 12
     },
     "hapticFeedbackOnSnap" : {
       "int" : 0
@@ -233,7 +233,7 @@
       "int" : 2
     },
     "windowSnapping" : {
-      "int" : 2
+      "int" : 1
     }
   },
   "shortcuts" : {
