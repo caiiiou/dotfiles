@@ -85,7 +85,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git
 zsh-autosuggestions
 zsh-syntax-highlighting
-zsh-autocomplete
 )
 source $ZSH/oh-my-zsh.sh
 source $HOME/.cargo/env
