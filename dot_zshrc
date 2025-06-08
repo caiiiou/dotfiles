@@ -116,6 +116,9 @@ source $HOME/.cargo/env
 #cmatrix rainbow alias
 alias cmatrix="cmatrix -r"
 
+#LSD alias
+alias ls="lsd"
+
 #autosuggestions
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
