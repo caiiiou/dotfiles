@@ -28,6 +28,9 @@ B / fillcmdline taball / show tabs in all windows
 u / undo tab / restore deleted tab *
 U / undo window / restore deleted window 
 
+r / reload / reload tab
+R / reloadhard / hard reload tab
+
 #custom#
 gn / winmerge / merge windows *
 gd / tabdetach / detach tab *
@@ -36,7 +39,7 @@ gD / composite tabduplicate; tabdetach / duplicate tab and detach *
 #hint modes#
 f / hint -f / hint open link current tab
 F / hint -b / hint open link background
-gf / hint -qb / hint open many tabs in background
+gf / hint -qb / hint open many tabs in background *
 yy / clipboard yank / copy url to clipboard 
 Y / hint -y / hint copy link *
 <C-y> / hint -p / hint copy element text*
