@@ -18,13 +18,17 @@ n / fillcmdline winopen / open new window *
 N / current_url winopen / paste link in new window *
 o / fillcmdline open / open in current tab
 O / current_url open / paste link in current tab
-w / tabclose / close current tab *
-W / winclose / close current window *
+w / tabclose / close tab *
+W / winclose / close window *
 
+s / fillcmdline opensearch / open search current tab
+S / fillcmdline tabopen search / open search in new tab
 b / fillcmdline tab / show tabs in window
 B / fillcmdline taball / show tabs in all windows
 u / undo tab / restore deleted tab *
 U / undo window / restore deleted window 
+
+#custom#
 gn / winmerge / merge windows *
 gd / tabdetach / detach tab *
 gD / composite tabduplicate; tabdetach / duplicate tab and detach *
@@ -33,14 +37,15 @@ gD / composite tabduplicate; tabdetach / duplicate tab and detach *
 f / hint -f / hint open link current tab
 F / hint -b / hint open link background
 gF / hint -qb / hint open many tabs in background
+yy / clipboard yank / copy url to clipboard 
 Y / hint -y / hint copy link *
-ctrl+y / hint -p / hint copy element text*
+<C-y> / hint -p / hint copy element text*
 
 #movement#
-gi / focusinput -l / focus on last-used input
+gl / focusinput -l / focus on last-used input *
 gg / scrollto 0 / jump to first line
 G / scrollto 100 / jump to last line
 
-gu / urlparent / go to parent url
-gU / url root / go to root url
+gh / urlparent / go to parent url *
+gH / urlroot / go to root url *
 ga / tabaudio / jump to tab playing the audio
