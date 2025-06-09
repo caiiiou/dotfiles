@@ -113,21 +113,12 @@ source $HOME/.cargo/env
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
 
-#cmatrix rainbow alias
-alias cmatrix="cmatrix -r"
-
 #LSD alias
 alias ls="lsd"
 
 #autosuggestions
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-
-#run random pokemon script
-zsh ~/Scripts/random_arceus.zsh
-
-#print lake trio
-#pokemon-colorscripts --no-title -rn azelf,mesprit,uxie
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
