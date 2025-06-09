@@ -123,8 +123,8 @@ automatically-unhide-macos-hidden-apps = false
     alt-a = 'fullscreen'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-    alt-shift-semicolon = ['move-node-to-workspace 1', 'workspace 1']
-    alt-shift-q = ['move-node-to-workspace 2', 'workspace 2']
+    alt-shift-semicolon = 'move-node-to-workspace 1'
+    alt-shift-q = 'move-node-to-workspace 2'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
