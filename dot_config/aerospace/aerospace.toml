@@ -96,8 +96,8 @@ automatically-unhide-macos-hidden-apps = false
     # '''
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
-    alt-z = 'layout tiles horizontal vertical'
-    alt-v = 'layout accordion horizontal vertical'
+    alt-c = 'layout tiles horizontal vertical'
+    alt-r = 'layout accordion horizontal vertical'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
     alt-h = 'focus left'
