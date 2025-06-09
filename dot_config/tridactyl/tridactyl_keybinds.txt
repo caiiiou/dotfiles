@@ -1,31 +1,43 @@
 * means changed bind with :bind key command
 
-
+#general# 
 j / scrollline 12 / scroll down
 k / scrollline -12 / scroll up
-ctrl+h / scrollpx -70 / scroll left *
-ctrl+l / scrollpx 70 / scroll right *
+<C-h> / scrollpx -70 / scroll left *
+<C-l> / scrollpx 70 / scroll right *
 
 h / tabprev / go previous tab *
 l / tabnext / go next tab *
 H / back / go back in tab
 L / forward / go forward in tab
 
+#tabs#
 t / fillcmdline tabopen / open new tab
 T / current_url tabopen / paste link in new tab
 n / fillcmdline winopen / open new window *
 N / current_url winopen / paste link in new window *
+o / fillcmdline open / open in current tab
+O / current_url open / paste link in current tab
+w / tabclose / close current tab *
+W / winclose / close current window *
+
+gn / winmerge / merge windows *
+gd / tabdetach / detach tab *
+gD / composite tabduplicate; tabdetach / duplicate tab and detach *
 
 
-_ / tabfirst / jump to first tab *
-g_ / tablast / jump to last tab *
-gu / urlparent / go to parent url
-gU / url root / go to root url
-
-hint modes
-
+#hint modes#
 f / hint -f / hint open link current tab
 F / hint -b / hint open link background
+gF / hint -qb / hint open many tabs in background
 Y / hint -y / hint copy link *
 ctrl+y / hint -p / hint copy element text*
 
+#movement#
+gi / focusinput -l / focus on last-used input
+gg / scrollto 0 / jump to first line
+G / scrollto 100 / jump to last line
+
+gu / urlparent / go to parent url
+gU / url root / go to root url
+ga / tabaudio / jump to tab playing the audio
