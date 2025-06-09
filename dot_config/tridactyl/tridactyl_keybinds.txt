@@ -21,10 +21,13 @@ O / current_url open / paste link in current tab
 w / tabclose / close current tab *
 W / winclose / close current window *
 
+b / fillcmdline tab / show tabs in window
+B / fillcmdline taball / show tabs in all windows
+u / undo tab / restore deleted tab *
+U / undo window / restore deleted window 
 gn / winmerge / merge windows *
 gd / tabdetach / detach tab *
 gD / composite tabduplicate; tabdetach / duplicate tab and detach *
-
 
 #hint modes#
 f / hint -f / hint open link current tab
