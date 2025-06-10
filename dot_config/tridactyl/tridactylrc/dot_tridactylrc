@@ -46,7 +46,6 @@ bind gh urlparent
 bind gH urlroot
 bind ga tabaudio
 
-set coulourscheme --url https://raw.githubusercontent.com/caiiiou/tridactyl/refs/heads/main/custom.css custom_theme
-
 set smoothscroll true
 set newtab about:blank
+set coulourscheme --url https://raw.githubusercontent.com/caiiiou/tridactyl/refs/heads/main/custom.css custom_theme
