@@ -1,0 +1,52 @@
+bind j scrollline 12 " " scroll down
+bind k scrollline -12 " " scroll up
+bind <C-h> scrollpx -70 " " scroll left 
+bind <C-l> scrollpx 70 / scroll right 
+
+bind h tabprev "" "" go previous tab 
+bind l tabnext "" "" go next tab 
+bind H back "" "" go back in tab
+bind L forward "" "" go forward in tab
+
+bind t fillcmdline tabopen "" "" open new tab
+bind T current_url tabopen "" "" paste link in new tab
+bind n  fillcmdline winopen "" "" open new window 
+bind N current_url winopen "" "" paste link in new window 
+bind o fillcmdline open "" "" open in current tab
+bind O current_url open "" "" paste link in current tab
+bind w tabclose "" "" close tab 
+bind W winclose "" "" close window 
+
+bind s fillcmdline opensearch "" "" open search current tab
+bind S fillcmdline tabopen search "" "" open search in new tab
+bind b fillcmdline tab "" "" show tabs in window
+bind B fillcmdline taball "" "" show tabs in all windows
+bind u undo tab "" "" restore deleted tab 
+bind U undo window "" "" restore deleted window 
+
+bind r reload "" "" reload tab
+bind R reloadhard "" "" hard reload tab
+
+bind gn winmerge "" "" merge windows
+bind gd tabdetach "" "" detach tab
+bind gD composite tabduplicate; tabdetach "" "" duplicate tab and detach
+
+bind f hint -f "" "" hint open link current tab
+bind F hint -b "" "" hint open link background
+bind gf hint -qb "" "" hint open many tabs in background
+bind yy clipboard yank "" "" copy url to clipboard 
+bind Y hint -p "" ""hint copy link 
+bind <C-y> hint -y "" "" hint copy element text*
+
+bind gl focusinput -l "" "" focus on last-used input
+bind gg scrollto 0 "" "" jump to first line
+bind G scrollto 100 "" "" jump to last line
+
+bind gh urlparent "" "" go to parent url *
+bind gH urlroot "" "" go to root url *
+bind ga tabaudio "" "" jump to tab playing the audio
+
+set coulourscheme --url https://raw.githubusercontent.com/caiiiou/tridactyl/refs/heads/main/custom.css custom_theme
+
+set smoothscroll true
+set newtab about:blank
