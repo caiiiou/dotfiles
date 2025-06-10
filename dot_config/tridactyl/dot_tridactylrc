@@ -48,5 +48,3 @@ bind ga tabaudio
 
 set smoothscroll true
 set newtab about:blank
-colourscheme --url https://raw.githubusercontent.com/caiiiou/tridactyl/refs/heads/main/custom.css custom_theme
-colourscheme custom_theme
