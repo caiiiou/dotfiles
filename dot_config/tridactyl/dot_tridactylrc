@@ -18,13 +18,17 @@ bind n  fillcmdline winopen
 bind N current_url winopen
 bind o fillcmdline open
 bind O current_url open
-bind w tabclose
-bind W winclose
 
 bind s fillcmdline opensearch
 bind S fillcmdline tabopen search
 bind b fillcmdline tab
 bind B fillcmdline taball
+bind p clipboard open
+bind P clipboard tabopen
+
+
+bind w tabclose
+bind W winclose
 bind u undo tab
 bind U undo window
 
@@ -39,8 +43,8 @@ bind f hint -f
 bind F hint -b
 bind gf hint -qb
 bind yy clipboard yank
-bind Y hint -p
-bind <C-y> hint -y
+bind Y hint -y
+bind <C-y> hint -p
 
 bind gl focusinput -l
 bind gg scrollto 0
