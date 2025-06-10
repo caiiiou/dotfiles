@@ -6,7 +6,12 @@ after-login-command = []
 # You can use it to add commands that run after AeroSpace startup.
 # 'after-startup-command' is run after 'after-login-command'
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
-after-startup-command = []
+after-startup-command = ['exec-and-forget sketchybar']
+
+# Notify Sketchybar about workspace change
+exec-on-workspace-change = ['/bin/bash', '-c',
+    'sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE'
+]
 
 # Start AeroSpace at login
 start-at-login = true
@@ -39,7 +44,7 @@ on-focus-changed = "move-mouse window-lazy-center"
 # You can effectively turn off macOS "Hide application" (cmd-h) feature by toggling this flag
 # Useful if you don't use this macOS feature, but accidentally hit cmd-h or cmd-alt-h key
 # Also see: https://nikitabobko.github.io/AeroSpace/goodies#disable-hide-app
-automatically-unhide-macos-hidden-apps = false
+automatically-unhide-macos-hidden-apps = true
 
 # Possible values: (qwerty|dvorak|colemak)
 # See https://nikitabobko.github.io/AeroSpace/guide#key-mapping
@@ -95,6 +100,7 @@ automatically-unhide-macos-hidden-apps = false
     # end tell'
     # '''
 
+
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
     alt-c = 'layout tiles horizontal vertical'
     alt-r = 'layout accordion horizontal vertical'
@@ -129,8 +135,8 @@ automatically-unhide-macos-hidden-apps = false
     alt-a = 'fullscreen'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-    alt-shift-semicolon = 'move-node-to-workspace 1'
-    alt-shift-q = 'move-node-to-workspace 2'
+    alt-shift-semicolon = ['move-node-to-workspace 1', 'workspace 1']
+    alt-shift-q = ['move-node-to-workspace 2', 'workspace 2']
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
