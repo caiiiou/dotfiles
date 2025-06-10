@@ -2,9 +2,13 @@ bind j scrollline 12
 bind k scrollline -12
 bind <C-h> scrollpx -70
 bind <C-l> scrollpx 70
+bind <C-j> scrollto 0 x
+bind <C-k> scrollto 100 x
 
 bind h tabprev
 bind l tabnext
+bind <M-h> tabprev
+bind <M-l> tabnext
 bind H back
 bind L forward
 
