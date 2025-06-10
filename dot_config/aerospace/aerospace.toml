@@ -59,7 +59,7 @@ automatically-unhide-macos-hidden-apps = false
     inner.vertical =   10
     outer.left =       10
     outer.bottom =     10
-    outer.top =        45
+    outer.top =        [{monitor."hp.*" = 45}, {monitor."dell.*" = 45},10]
     outer.right =      10
 
 # 'main' binding mode declaration
