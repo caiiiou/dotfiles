@@ -17,11 +17,11 @@ sketchybar --bar height=30 \
 	blur_radius=20 \
 	notch_width=200 \
 	--default updates=when_shown \
-	icon.font="$FONT:Bold:13.5" \
+	icon.font="$FONT:Retina:13.5" \
 	icon.color="$ICON_COLOR" \
 	icon.padding_left="$PADDINGS" \
 	icon.padding_right="$PADDINGS" \
-	label.font="$FONT:Bold:13.0" \
+	label.font="$FONT:Retina:13.0" \
 	label.color="$LABEL_COLOR" \
 	label.padding_left="$PADDINGS" \
 	label.padding_right="$PADDINGS" \
@@ -33,13 +33,30 @@ sketchybar --bar height=30 \
 	popup.background.color="$POPUP_BACKGROUND_COLOR" \
 	popup.background.shadow.drawing="$SHADOW"
 
+sketchybar --add event aerospace_workspace_change
+
+for sid in $(aerospace list-workspaces --all); do
+    sketchybar --add item space.$sid left \
+        --subscribe space.$sid aerospace_workspace_change \
+        --set space.$sid \
+        background.color=$TRANSPARENT \
+        background.corner_radius=15 \
+        background.height=20 \
+        background.drawing=off \
+	background.border_color="$BLUE" \
+	background.border_width=2 \
+        label="$sid" \
+        click_script="aerospace workspace $sid" \
+        script="$CONFIG_DIR/plugins/aerospace.sh $sid"
+done
+
 # Left
-# source "$ITEM_DIR/apple.sh"
-source "$ITEM_DIR/spaces.sh"
+#source "$ITEM_DIR/apple.sh"
+#source "$ITEM_DIR/spaces.sh"
 source "$ITEM_DIR/front_app.sh"
 
 # Center (of notch)
-source "$ITEM_DIR/spotify.sh"
+source "$ITEM_DIR/music.sh"
 
 # Right
 source "$ITEM_DIR/clock.sh"
@@ -48,10 +65,16 @@ source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/volume.sh"
 source "$ITEM_DIR/cpu.sh"
 
+
 #################### Finalizing Setup ####################
 
 sketchybar --hotload true
 
-sketchybar --update
+sketchybar --update {
+  while true; do
+    sketchybar --trigger music_tick
+    sleep 5
+  done
+} &
 
 echo "sketchybar configuration loaded.."

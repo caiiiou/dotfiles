@@ -11,7 +11,7 @@ GREEN=0xe6b4befe
 YELLOW=0xe6b4befe
 ORANGE=0xe6b4befe
 RED=0xe6b4befe
-BAR_COLOR=0xff1a1b26
+BAR_COLOR=0xe61a1b26
 COMMENT=0xff565f89
 
 # Tokyonight Day
@@ -35,7 +35,7 @@ LABEL_COLOR=$WHITE # Color of all labels
 ITEM_DIR="$HOME/.config/sketchybar/items"
 PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
 
-FONT="MesloLGS NF"
+FONT="FiraCode Nerd Font"
 
 PADDINGS=3
 
