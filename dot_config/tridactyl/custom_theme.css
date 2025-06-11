@@ -19,8 +19,8 @@
   --tridactyl-hintspan-font-family: var(--font);
 
   /* Hint character tags */
-  --tridactyl-hintspan-fg: none;
-  --tridactyl-hintspan-bg: var(--lavender);
+  --tridactyl-hintspan-fg: var(--currentline) !important;
+  --tridactyl-hintspan-bg: var(--lavender) !important;
 
   /* Element Highlights */
   --tridactyl-hint-active-fg: none;
