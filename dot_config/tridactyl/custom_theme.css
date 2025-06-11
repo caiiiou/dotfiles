@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --bg: #282a36;
+  --bg: #1e1e2e;
   --currentline: #44475a;
   --fg: #f8f8f2;
   --comment: #6272a4;
@@ -12,7 +12,7 @@
   --red: #ff5555;
   --yellow: #f1fa8c;
   --pink: #ffc5d3;
-  --font: monospace; /*"FiraCode Nerd Font Mono";*/
+  --font: regular; /*"FiraCode Nerd Font Mono";*/
 
   --tridactyl-fg: var(--fg);
   --tridactyl-bg: var(--bg);
