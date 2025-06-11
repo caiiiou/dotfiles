@@ -4,13 +4,14 @@
   --currentline: #44475a;
   --fg: #f8f8f2;
   --comment: #6272a4;
-  --font: regular; /*"FiraCode Nerd Font Mono";*/
+  --lavender: #b4befe;
+  --font: FiraCode; /*"FiraCode Nerd Font Mono";*/
 
   --tridactyl-fg: var(--fg);
   --tridactyl-bg: var(--bg);
   --tridactyl-url-fg: var(--lavender);
   --tridactyl-url-bg: var(--bg);
-  --tridactyl-highlight-box-bg: var(--currentline);
+  --tridactyl-highlight-box-bg: var(--lavender);
   --tridactyl-highlight-box-fg: var(--fg);
   --tridactyl-of-fg: var(--fg);
   --tridactyl-of-bg: var(--currentline);
