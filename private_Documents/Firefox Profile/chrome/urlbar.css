@@ -1,5 +1,10 @@
 #urlbar {
   text-align: center;
+
+}
+
+#urlbar-input {
+  color: var(--tf-accent)!important;
 }
 
 #urlbar-background {
@@ -22,3 +27,13 @@
 .urlbarView:not([noresults]) > .search-one-offs:not([hidden]) {
   border-top: var(--border-width) solid var(--tf-accent) !important;
 }
+
+.urlbarView-title {
+  color: var(--tf-accent) !important;
+}
+
+.panel-type-urlbar .urlbarView-row[selected] {
+  background-color: var(tf-accent) !important; /* your custom color */
+  color: var(--tf-bg) !important; /* selected row text color */
+}
+

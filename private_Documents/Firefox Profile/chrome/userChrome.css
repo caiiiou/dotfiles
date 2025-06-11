@@ -31,7 +31,4 @@ body {
   text-transform: var(--tf-text-transform);
 }
 
-#urlbar-input {
-  color: #b4befe !important;
-  opacity: 0.90 !important
-}
+
