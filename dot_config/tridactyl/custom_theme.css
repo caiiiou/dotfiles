@@ -20,13 +20,13 @@
 
   /* Hint character tags */
   --tridactyl-hintspan-fg: none;
-  --tridactyl-hintspan-bg: none;
+  --tridactyl-hintspan-bg: var(--lavender);
 
   /* Element Highlights */
   --tridactyl-hint-active-fg: none;
-  --tridactyl-hint-active-bg: var(--lavender) !important;
+  --tridactyl-hint-active-bg: none;
   --tridactyl-hint-active-outline: none;
-  --tridactyl-hint-bg: none; /*highlights text body*/
+  --tridactyl-hint-bg: none;
   --tridactyl-hint-outline: none;
 }
 
