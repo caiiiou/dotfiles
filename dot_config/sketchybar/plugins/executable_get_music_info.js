@@ -14,7 +14,7 @@ function run() {
 
 	const isPlaying = infoDict.valueForKey('kMRMediaRemoteNowPlayingInfoPlaybackRate')?.js == 1;
 	const state = isPlaying ? "Playing" : "Paused";
-	const label = `${artist} - ${title}`;
+	const label = `${title} - ${artist}`;
 
 	return JSON.stringify({ label: label, state: state });
 }

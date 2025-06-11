@@ -1,10 +1,20 @@
 #!/usr/bin/env bash
-
-# make sure it's executable with:
+# ~/.config/sketchybar/plugins/aerospace.sh
+# Make sure it's executable with:
 # chmod +x ~/.config/sketchybar/plugins/aerospace.sh
 
-if [ "$1" = "$FOCUSED_WORKSPACE" ]; then
-    sketchybar --set $NAME background.drawing=on
-else
-    sketchybar --set $NAME background.drawing=off
+# Try different ways to get the current workspace
+CURRENT_WORKSPACE=""
+
+# Method 1: Try aerospace command
+if command -v aerospace >/dev/null 2>&1; then
+    CURRENT_WORKSPACE=$(aerospace list-workspaces --focused 2>/dev/null)
 fi
+
+sketchybar --set aerospace \
+    label="$CURRENT_WORKSPACE" \
+    label.drawing=on \
+    label.color=0xe6b4befe\
+    background.drawing=on \
+    background.color="$BAR_COLOR" \
+    background.border_color=0xe6b4befe
