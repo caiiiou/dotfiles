@@ -2,7 +2,6 @@
   /* Colors */
   --bg: #1e1e2e;
   --currentline: #44475a;
-  --fg: #f8f8f2;
   --lavender: #b4befe;
   --font: monospace; /*"FiraCode Nerd Font Mono";*/
 
@@ -20,7 +19,7 @@
   --tridactyl-hintspan-font-family: var(--font);
 
   /* Hint character tags */
-  --tridactyl-hintspan-fg: var(--bg) !important;
+  --tridactyl-hintspan-fg: var(--lavender) !important;
   --tridactyl-hintspan-bg: var(--lavender) !important;
 
   /* Element Highlights */
