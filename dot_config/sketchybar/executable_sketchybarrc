@@ -24,11 +24,12 @@ source "$ITEM_DIR/cpu.sh"
 
 sketchybar --hotload true
 
-sketchybar --update {
-  while true; do
-    sketchybar --trigger music_tick
-    sleep .1
-  done
-} &
+sketchybar --update
+
+while true; do
+  sketchybar --trigger music_tick
+  sleep .1
+done
+&
 
 echo "sketchybar configuration loaded.."
