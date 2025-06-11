@@ -2,58 +2,13 @@
 
 source "$HOME/.config/sketchybar/variables.sh" # Loads all defined colors
 
-# General bar and defaults
-
-sketchybar --bar height=30 \
-	color="$BAR_COLOR" \
-	shadow="$SHADOW" \
-	position=top \
-	sticky=on \
-	padding_right=0 \
-	padding_left=3 \
-	corner_radius="$CORNER_RADIUS" \
-	y_offset=5 \
-	margin=5 \
-	blur_radius=20 \
-	notch_width=200 \
-	--default updates=when_shown \
-	icon.font="$FONT:Retina:13.5" \
-	icon.color="$ICON_COLOR" \
-	icon.padding_left="$PADDINGS" \
-	icon.padding_right="$PADDINGS" \
-	label.font="$FONT:Retina:13.0" \
-	label.color="$LABEL_COLOR" \
-	label.padding_left="$PADDINGS" \
-	label.padding_right="$PADDINGS" \
-	background.padding_right="$PADDINGS" \
-	background.padding_left="$PADDINGS" \
-	popup.background.border_width=1 \
-	popup.background.corner_radius=11 \
-	popup.background.border_color="$POPUP_BORDER_COLOR" \
-	popup.background.color="$POPUP_BACKGROUND_COLOR" \
-	popup.background.shadow.drawing="$SHADOW"
-
-sketchybar --add event aerospace_workspace_change
-
-for sid in $(aerospace list-workspaces --all); do
-    sketchybar --add item space.$sid left \
-        --subscribe space.$sid aerospace_workspace_change \
-        --set space.$sid \
-        background.color=$TRANSPARENT \
-        background.corner_radius=15 \
-        background.height=20 \
-        background.drawing=off \
-	background.border_color="$BLUE" \
-	background.border_width=2 \
-        label="$sid" \
-        click_script="aerospace workspace $sid" \
-        script="$CONFIG_DIR/plugins/aerospace.sh $sid"
-done
+# General bar and Aerospace
+source "$ITEM_DIR/bar.sh"
+source "$ITEM_DIR/aerospace.sh"
 
 # Left
-#source "$ITEM_DIR/apple.sh"
-#source "$ITEM_DIR/spaces.sh"
 source "$ITEM_DIR/front_app.sh"
+source "$ITEM_DIR/media_controls.sh"
 
 # Center (of notch)
 source "$ITEM_DIR/music.sh"
