@@ -1,12 +1,12 @@
 #!/bin/bash
 
-COLOR="$LAVENDER"
+osascript -e 'tell application "System Events" to tell process "Music" to set frontmost to true' 2>/dev/null
 
+COLOR="$LAVENDER"
 sketchybar --add event music_tick
 sketchybar --add item music q \
 	--set music \
 	scroll_texts=off \
-	icon=󰎆 \
 	icon.color="$COLOR" \
 	icon.padding_left=10 \
 	background.color="$BAR_COLOR" \
@@ -20,7 +20,7 @@ sketchybar --add item music q \
 	label.max_chars=30 \
 	associated_display=active \
 	updates=on \
-	--set music script="$PLUGIN_DIR/music.sh" \
+	script="$PLUGIN_DIR/music.sh" \
 	--subscribe music music_tick
 
 
