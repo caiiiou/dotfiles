@@ -7,8 +7,6 @@ bind <C-k> scrollto 100 x
 
 bind h tabprev
 bind l tabnext
-bind <M-h> tabprev
-bind <M-l> tabnext
 bind H back
 bind L forward
 
@@ -43,8 +41,8 @@ bind f hint -f
 bind F hint -b
 bind gf hint -qb
 bind yy clipboard yank
-bind Y hint -y
-bind <C-y> hint -p
+bind Y hint -p
+bind <C-y> hint -y
 
 bind gl focusinput -l
 bind gg scrollto 0
