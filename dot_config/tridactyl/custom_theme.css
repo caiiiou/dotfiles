@@ -12,7 +12,7 @@
   --tridactyl-url-bg: var(--bg);
   --tridactyl-highlight-box-bg: var(--lavender);
   --tridactyl-highlight-box-fg: var(--bg);
-  --tridactyl-of-fg: var(--fg);
+  --tridactyl-of-fg: var(--lavender);
   --tridactyl-of-bg: var(--currentline);
   --tridactyl-cmdl-fg: var(--bg);
   --tridactyl-cmdl-font-family: var(--font);
@@ -39,7 +39,7 @@
 
 #tridactyl-input {
   padding: 1rem;
-  color: var(--tridactyl-fg);
+  color: var(--lavender);
   width: 90%;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -67,7 +67,7 @@
 
 #completions {
   --option-height: 1.4em;
-  color: var(--tridactyl-fg);
+  color: var(--lavender);
   background: var(--tridactyl-bg);
   display: inline-block;
   font-size: unset;
