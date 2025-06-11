@@ -3,7 +3,7 @@
 # Color Palette
 # Catppuccin Mocha
 LAVENDER=0xe6b4befe
-BAR_COLOR=0xe6181825
+BAR_COLOR=0xe61e1e2e
 
 TRANSPARENT=0x00000000
 
