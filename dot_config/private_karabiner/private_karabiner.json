@@ -1,9 +1,30 @@
 {
-    "global": { "show_in_menu_bar": false },
+    "global": {
+        "ask_for_confirmation_before_quitting": false,
+        "show_in_menu_bar": false
+    },
     "profiles": [
         {
             "complex_modifications": {
                 "rules": [
+                    {
+                        "description": "Option + Control + h -> Delete Word",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": { "mandatory": ["left_option", "left_control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace",
+                                        "modifiers": ["option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "Option+JIKL for Arrow Keys",
                         "manipulators": [
@@ -114,6 +135,14 @@
                             "to": [{ "key_code": "left_control" }]
                         }
                     ]
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 50503,
+                        "vendor_id": 1133
+                    },
+                    "ignore": true
                 }
             ],
             "fn_function_keys": [
