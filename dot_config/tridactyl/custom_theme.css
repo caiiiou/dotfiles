@@ -146,7 +146,7 @@
   background: var(--tridactyl-bg) !important;
   border: unset !important;
   border: 1px var(--lavender) solid !important;Add commentMore actions
-  font-size: 8pt !important;
+  font-size: 2pt !important;
   /*font-weight: 200 !important;*/
   padding: 0.8ex !important;
 }
