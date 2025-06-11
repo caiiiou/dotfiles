@@ -8,7 +8,6 @@ source "$ITEM_DIR/aerospace.sh"
 
 # Left
 source "$ITEM_DIR/front_app.sh"
-source "$ITEM_DIR/media_controls.sh"
 
 # Center (of notch)
 source "$ITEM_DIR/music.sh"

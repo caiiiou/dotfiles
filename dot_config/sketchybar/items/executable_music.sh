@@ -1,7 +1,5 @@
 #!/bin/bash
 
-osascript -e 'tell application "System Events" to tell process "Music" to set frontmost to true' 2>/dev/null
-
 COLOR="$LAVENDER"
 sketchybar --add event music_tick
 sketchybar --add item music q \
