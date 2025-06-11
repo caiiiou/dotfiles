@@ -1,5 +1,7 @@
 #!/bin/bash
 
+COLOR="$LAVENDER"
+
 sketchybar --add event music_tick
 sketchybar --add item music q \
 	--set music \
@@ -12,7 +14,7 @@ sketchybar --add item music q \
 	background.corner_radius="$CORNER_RADIUS" \
 	background.border_width="$BORDER_WIDTH" \
 	background.border_color="$COLOR" \
-	background.padding_right=-5 \
+	background.padding_right="$PADDINGS" \
 	background.drawing=on \
 	label.padding_right=10 \
 	label.max_chars=30 \

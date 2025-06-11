@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-COLOR="$CYAN"
+COLOR="$LAVENDER"
 
 sketchybar --add item battery right \
 	--set battery \

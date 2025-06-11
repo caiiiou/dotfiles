@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-COLOR="$MAGENTA"
+COLOR="$LAVENDER"
 
 sketchybar --add item clock right \
 	--set clock update_freq=1 \
