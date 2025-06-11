@@ -8,7 +8,25 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Option + Control + h -> Delete Word",
+                        "description": "Option + Control + Shift + h -> Command + Backspace",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": { "mandatory": ["left_option", "left_control", "left_command"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Option + Control + h -> Option + Backspace",
                         "manipulators": [
                             {
                                 "from": {
