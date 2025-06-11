@@ -3,16 +3,15 @@
   --bg: #1e1e2e;
   --currentline: #44475a;
   --fg: #f8f8f2;
-  --comment: #6272a4;
   --lavender: #b4befe;
-  --font: FiraCode; /*"FiraCode Nerd Font Mono";*/
+  --font: Retina; /*"FiraCode Nerd Font Mono";*/
 
   --tridactyl-fg: var(--fg);
   --tridactyl-bg: var(--bg);
   --tridactyl-url-fg: var(--lavender);
   --tridactyl-url-bg: var(--bg);
   --tridactyl-highlight-box-bg: var(--lavender);
-  --tridactyl-highlight-box-fg: var(--fg);
+  --tridactyl-highlight-box-fg: var(--bg);
   --tridactyl-of-fg: var(--fg);
   --tridactyl-of-bg: var(--currentline);
   --tridactyl-cmdl-fg: var(--bg);
