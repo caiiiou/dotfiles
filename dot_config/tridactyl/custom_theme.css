@@ -19,14 +19,14 @@
   --tridactyl-hintspan-font-family: var(--font);
 
   /* Hint character tags */
-  --tridactyl-hintspan-fg: var(--lavender) !important;
+  --tridactyl-hintspan-fg: none;
   --tridactyl-hintspan-bg: var(--lavender) !important;
 
   /* Element Highlights */
   --tridactyl-hint-active-fg: none;
   --tridactyl-hint-active-bg: none;
   --tridactyl-hint-active-outline: none;
-  --tridactyl-hint-bg: none;
+  --tridactyl-hint-bg: var(--lavender) !important;
   --tridactyl-hint-outline: none;
 }
 
