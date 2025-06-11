@@ -20,7 +20,7 @@
 
   /* Hint character tags */
   --tridactyl-hintspan-fg: none;
-  --tridactyl-hintspan-bg: var(--lavender) !important;
+  --tridactyl-hintspan-bg: none;
 
   /* Element Highlights */
   --tridactyl-hint-active-fg: none;
