@@ -23,7 +23,7 @@
   --tridactyl-hintspan-bg: var(--lavender) !important;
 
   /* Element Highlights */
-  --tridactyl-hint-active-fg: var(--currentline) !important;
+  --tridactyl-hint-active-fg: none;
   --tridactyl-hint-active-bg: none;
   --tridactyl-hint-active-outline: none;
   --tridactyl-hint-bg: none;
