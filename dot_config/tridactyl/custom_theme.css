@@ -4,7 +4,7 @@
   --currentline: #44475a;
   --fg: #f8f8f2;
   --lavender: #b4befe;
-  --font: "FiraCode"; /*"FiraCode Nerd Font Mono";*/
+  --font: "Fira Code"; /*"FiraCode Nerd Font Mono";*/
 
   --tridactyl-fg: var(--fg);
   --tridactyl-bg: var(--bg);
