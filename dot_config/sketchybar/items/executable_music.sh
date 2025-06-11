@@ -20,3 +20,7 @@ sketchybar --add item music q \
 	updates=on \
 	--set music script="$PLUGIN_DIR/music.sh" \
 	--subscribe music music_tick
+
+
+
+
