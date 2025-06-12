@@ -1,0 +1,28 @@
+#!/usr/bin/env zsh
+
+source "$HOME/.config/sketchybar/variables.zsh" # Loads all defined colors
+
+# General bar
+source "$ITEM_DIR/bar.zsh"
+
+# Left
+source "$ITEM_DIR/aerospace.zsh"
+source "$ITEM_DIR/front_app.zsh"
+
+# Center (of notch)
+source "$ITEM_DIR/music.zsh"
+
+# Right
+source "$ITEM_DIR/clock.zsh"
+source "$ITEM_DIR/calendar.zsh"
+source "$ITEM_DIR/volume.zsh"
+source "$ITEM_DIR/battery.zsh"
+source "$ITEM_DIR/cpu.zsh"
+
+#################### Finalizing Setup ####################
+
+sketchybar --hotload true
+
+sketchybar --update
+
+echo "sketchybar configuration loaded.."
