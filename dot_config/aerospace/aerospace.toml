@@ -124,16 +124,16 @@ automatically-unhide-macos-hidden-apps = true
     alt-s = 'balance-sizes'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-    alt-t = 'workspace 2'
-    alt-n = 'workspace 3'
+    alt-t = 'workspace 0'
+    alt-n = 'workspace 9'
     alt-space = 'workspace Z'
 
     alt-a = 'layout floating tiling'
     alt-o = 'fullscreen'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-    alt-shift-t = ['move-node-to-workspace X', 'workspace 2']
-    alt-shift-n = ['move-node-to-workspace Y', 'workspace 3']
+    alt-shift-t = ['move-node-to-workspace 0', 'workspace 0']
+    alt-shift-n = ['move-node-to-workspace 9', 'workspace 9']
     alt-shift-space = ['move-node-to-workspace Z', 'workspace Z']
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
