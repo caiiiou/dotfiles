@@ -1,5 +1,3 @@
-#!/usr/bin/env zsh
-
 source "$HOME/.config/sketchybar/variables.zsh" # Loads all defined colors
 
 # General bar
