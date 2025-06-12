@@ -15,7 +15,7 @@
 .urlbarView {
   text-align: start;
   margin-top: 4px;
-  background-color: var(--tf-bg);
+  background-color: var(--tf-bg) !important;
   border: var(--border-width) solid var(--tf-accent) !important;
   border-radius: 0 0 var(--tf-rounding) var(--tf-rounding);
 }
@@ -24,6 +24,7 @@
     border-top: unset !important;
   }
 }
+
 .urlbarView:not([noresults]) > .search-one-offs:not([hidden]) {
   border-top: var(--border-width) solid var(--tf-accent) !important;
 }
@@ -31,9 +32,11 @@
 .urlbarView-title {
   color: var(--tf-accent) !important;
 }
-
-.panel-type-urlbar .urlbarView-row[selected] {
-  background-color: var(tf-accent) !important; /* your custom color */
-  color: var(--tf-bg) !important; /* selected row text color */
+.urlbarView-row[selected] {
+  background-color: var(--tf-accent) !important;
+  color: var(--tf-bg) !important;
 }
 
+ .urlbarView-row[selected] .urlbarView-title {
+  color: var(--tf-bg) !important;
+}
