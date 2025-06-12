@@ -16,19 +16,20 @@ ICON_PADDING_LEFT=10
 LABEL_PADDING_RIGHT=10 # Padding on right of label
 BACKGROUND_PADDING_RIGHT=5 # Padding on right side of background
 
-
-
+# Background Settings
 BACKGROUND_DRAWING=off # Whether to draw border
 BACKGROUND_HEIGHT=26 #background height
 
 ITEM_DIR="$HOME/.config/sketchybar/items"
 PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
 
+# Font Settings
 FONT="FiraCode Nerd Font"
 FONT_THICKNESS="Retina"
 
 PADDINGS=3
 
+#Border Settings
 CORNER_RADIUS=15
 BORDER_WIDTH=1
 
