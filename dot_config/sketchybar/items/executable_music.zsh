@@ -10,7 +10,7 @@ sketchybar --add item music q \
 	icon.font.size=17 \
 	label.color="$COLOR" \
 	label.padding_right="$LABEL_PADDING_RIGHT" \
-	label.max_chars=30 \
+	label.max_chars=40 \
 	background.color="$BAR_COLOR" \
 	background.padding_right="$PADDINGS" \
 	background.height="$BACKGROUND_HEIGHT" \
