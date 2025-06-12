@@ -33,7 +33,7 @@
 
 #command-line-holder {
   order: 1;
-  border: 4px solid var(--lavender);
+  border: 3px var(--lavender);
   background: var(--tridactyl-bg);
 }
 
