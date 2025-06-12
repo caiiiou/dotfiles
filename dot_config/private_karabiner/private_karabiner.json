@@ -8,6 +8,27 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Play/Pause + Next with Option",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "period",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "key_code": "fastforward" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "slash",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "key_code": "play_or_pause" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Option + Control + Shift + h -> Command + Backspace",
                         "manipulators": [
                             {
@@ -93,7 +114,7 @@
                         ]
                     },
                     {
-                        "description": "Volume keys with option",
+                        "description": "Volume keys with Option",
                         "manipulators": [
                             {
                                 "from": {
