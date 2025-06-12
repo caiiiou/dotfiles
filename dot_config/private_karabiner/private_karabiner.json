@@ -12,7 +12,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "slash",
                                     "modifiers": { "mandatory": ["right_option"] }
                                 },
                                 "to": [{ "key_code": "fastforward" }],
@@ -20,7 +20,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "slash",
+                                    "key_code": "period",
                                     "modifiers": { "mandatory": ["right_option"] }
                                 },
                                 "to": [{ "key_code": "play_or_pause" }],
@@ -29,8 +29,21 @@
                         ]
                     },
                     {
-                        "description": "Option + Control + Shift + h -> Command + Backspace",
+                        "description": "Delete Word/Line with h",
                         "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": { "mandatory": ["left_option", "left_control"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace",
+                                        "modifiers": ["option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "from": {
                                     "key_code": "j",
@@ -47,25 +60,7 @@
                         ]
                     },
                     {
-                        "description": "Option + Control + h -> Option + Backspace",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "j",
-                                    "modifiers": { "mandatory": ["left_option", "left_control"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "delete_or_backspace",
-                                        "modifiers": ["option"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Option+JIKL for Arrow Keys",
+                        "description": "Arrow Keys with Option",
                         "manipulators": [
                             {
                                 "from": {
