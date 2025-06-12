@@ -25,7 +25,7 @@ ITEM_DIR="$HOME/.config/sketchybar/items"
 PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
 
 FONT="FiraCode Nerd Font"
-FONT_THICKNESS="Medium"
+FONT_THICKNESS="Retina"
 
 PADDINGS=3
 
