@@ -18,8 +18,8 @@ sketchybar --add item music q \
 	label.max_chars=30 \
 	associated_display=active \
 	updates=on \
-	script="$PLUGIN_DIR/music.sh" \
-	--subscribe music music_tick
+	update_freq=1\
+	script="$PLUGIN_DIR/music.sh" 
 
 
 
