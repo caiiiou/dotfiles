@@ -120,7 +120,7 @@ source $HOME/.cargo/env
 alias ls="lsd"
 
 #Fastfetch alias
-alias fastfetch="fastfetch --kitty-direct ~/.config/fastfetch/pngs/applejack.png --logo-width 25 --logo-padding-top 5 --logo-padding-right 10 --logo-padding-left 5"
+alias fastfetch="fastfetch --kitty-direct ~/.config/fastfetch/pngs/applejack.png --logo-width 20 --logo-padding-top 6 --logo-padding-right 10 --logo-padding-left 7"
 
 #autosuggestions settings
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
