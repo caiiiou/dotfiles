@@ -7,6 +7,7 @@ sketchybar --add item music q \
 	update_freq=1 \
 	icon.color="$COLOR" \
 	icon.padding_left="$ICON_PADDING_LEFT" \
+	icon.font.size=18 \
 	label.color="$COLOR" \
 	label.padding_right="$LABEL_PADDING_RIGHT" \
 	label.max_chars=30 \
