@@ -119,7 +119,10 @@ source $HOME/.cargo/env
 #LSD alias
 alias ls="lsd"
 
-#autosuggestions
+#Fastfetch alias
+alias fastfetch="fastfetch --kitty-direct ~/.config/fastfetch/pngs/applejack.png --logo-width 25 --logo-padding-top 5 --logo-padding-right 10 --logo-padding-left 5"
+
+#autosuggestions settings
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
