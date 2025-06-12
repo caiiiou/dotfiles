@@ -3,6 +3,7 @@
   --bg: #1e1e2e;
   --currentline: #44475a;
   --lavender: #b4befe;
+  --white: #cdd64f
   --font: monospace; /*"FiraCode Nerd Font Mono";*/
 
   --tridactyl-fg: var(--lavender);
@@ -38,7 +39,7 @@
 
 #tridactyl-input {
   padding: 1rem;
-  color: var(--lavender);
+  color: var(--white);
   width: 90%;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -66,7 +67,7 @@
 
 #completions {
   --option-height: 1.4em;
-  color: var(--lavender);
+  color: var(--white);
   background: var(--tridactyl-bg);
   display: inline-block;
   font-size: unset;
