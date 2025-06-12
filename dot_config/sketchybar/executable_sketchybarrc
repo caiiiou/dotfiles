@@ -2,11 +2,11 @@
 
 source "$HOME/.config/sketchybar/variables.sh" # Loads all defined colors
 
-# General bar and Aerospace
+# General bar
 source "$ITEM_DIR/bar.sh"
-source "$ITEM_DIR/aerospace.sh"
 
 # Left
+source "$ITEM_DIR/aerospace.sh"
 source "$ITEM_DIR/front_app.sh"
 
 # Center (of notch)
