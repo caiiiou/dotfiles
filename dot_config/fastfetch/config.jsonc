@@ -40,12 +40,13 @@
       },
       {
           "type": "cursor",
+          "format": "{1}",
           "key": " ├ 󰳽 ",
           "keyColor": "32", 
       },
       {
           "type": "terminal",
-          "key": " ├ ",
+          "key": " ├  ",
           "keyColor": "32",
       },
       {
@@ -56,7 +57,7 @@
       "break",
       {
           "type": "host",
-          "format": "{5} {1} Type {2}",
+          "format": "{5} {2}",
           "key": "PC   ",
           "keyColor": "33",
       },
@@ -84,11 +85,13 @@
       },
       {
           "type": "disk",
+          "format": "{1} / {2} ({3})",
           "key": " ├  ",
           "keyColor": "33",
       },
       {
           "type": "monitor",
+          "format": "{2}x{3}px @ {11} Hz ({7} PPI)",
           "key": " └  ",
           "keyColor": "33",
       },
