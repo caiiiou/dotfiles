@@ -34,6 +34,7 @@
 #command-line-holder {
   order: 1;
   border: 3px var(--lavender);
+  border-radius: 15px;
   background: var(--tridactyl-bg);
 }
 
