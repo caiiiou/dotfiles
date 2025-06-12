@@ -10,3 +10,4 @@ fi
 
 sketchybar --set aerospace \
     label="$CURRENT_WORKSPACE" \
+    label.padding_left=20
