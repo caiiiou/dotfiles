@@ -9,6 +9,8 @@ bind h tabprev
 bind l tabnext
 bind <M-h> tabprev
 bind <M-l> tabnext
+bind --mode=browser <M-h> tabprev
+bind --mode=browser <M-l> tabnext
 bind H back
 bind L forward
 
