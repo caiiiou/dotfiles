@@ -3,7 +3,7 @@
 
 **Fonts are Fira Code and FiraCode Nerd**
 
-Menu Bar: [SketchyBar](https://github.com/FelixKratz/SketchyBar) \
-Borders: [JankyBorders](https://github.com/FelixKratz/JankyBorders) \
-Pokemon: [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) \
-Fetch: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+###Menu Bar###: [SketchyBar](https://github.com/FelixKratz/SketchyBar) \
+###Borders###: [JankyBorders](https://github.com/FelixKratz/JankyBorders) \
+###Pokemon###: [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) \
+###Fetch###: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
