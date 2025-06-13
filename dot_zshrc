@@ -133,4 +133,4 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/opt/homebrew/sbin:$PATH"
 
-pokemon-colorscripts --no-title -n celebi -s
+~/Scripts/pokemon_lucky.zsh
