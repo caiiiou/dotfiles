@@ -39,9 +39,9 @@ bind gn winmerge
 bind gd tabdetach
 bind gD composite tabduplicate; tabdetach
 
-bind / hint -f
-bind ? hint -b
-bind g/ hint -qb
+bind f hint -f
+bind F hint -b
+bind gf hint -qb
 bind yy clipboard yank
 bind Y hint -p
 bind <C-y> hint -y
