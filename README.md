@@ -9,3 +9,4 @@
 **Borders:** [JankyBorders](https://github.com/FelixKratz/JankyBorders) \
 **Pokemon:** [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) \
 **Fetch:** [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+![purple](https://github.com/user-attachments/assets/bb41505f-e662-4d6c-870a-c2d52b7e2bc6)
