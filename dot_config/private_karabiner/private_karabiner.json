@@ -8,6 +8,27 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Firefox Select Address Bar",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "org\\.mozilla\\.firefox"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "h",
+                                    "modifiers": { "mandatory": ["left_option"] }
+                                },
+                                "to": [{ "key_code": "f6" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Modifier+Tab CMD>CTRL, CTRL>OPT, OPT>CTRL",
                         "enabled": false,
                         "manipulators": [
@@ -277,11 +298,11 @@
             "fn_function_keys": [
                 {
                     "from": { "key_code": "f5" },
-                    "to": [{ "key_code": "f5" }]
+                    "to": [{ "key_code": "illumination_decrement" }]
                 },
                 {
                     "from": { "key_code": "f6" },
-                    "to": [{ "key_code": "f16" }]
+                    "to": [{ "key_code": "illumination_increment" }]
                 }
             ],
             "name": "Default profile",
