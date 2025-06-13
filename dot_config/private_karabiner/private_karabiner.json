@@ -8,37 +8,6 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Swap Opt+Tab to Ctrl+Tab",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "tab",
-                                    "modifiers": { "mandatory": ["left_option"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "tab",
-                                        "modifiers": ["left_control"]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "tab",
-                                    "modifiers": { "mandatory": ["left_option", "left_shift"] }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "tab",
-                                        "modifiers": ["left_control", "left_shift"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Modifier+Tab CMD>CTRL, CTRL>OPT, OPT>CTRL",
                         "enabled": false,
                         "manipulators": [
@@ -118,27 +87,6 @@
                                         "modifiers": ["left_option", "left_shift"]
                                     }
                                 ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Play/Pause + Next with Option",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "slash",
-                                    "modifiers": { "mandatory": ["right_option"] }
-                                },
-                                "to": [{ "key_code": "fastforward" }],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "period",
-                                    "modifiers": { "mandatory": ["right_option"] }
-                                },
-                                "to": [{ "key_code": "play_or_pause" }],
                                 "type": "basic"
                             }
                         ]
@@ -268,39 +216,46 @@
                         ]
                     },
                     {
-                        "description": "Volume keys with Option",
+                        "description": "Media Keys",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "n",
-                                    "modifiers": {
-                                        "mandatory": ["right_option"],
-                                        "optional": ["any"]
-                                    }
+                                    "key_code": "spacebar",
+                                    "modifiers": { "mandatory": ["right_shift"] }
                                 },
-                                "to": [{ "key_code": "mute" }],
+                                "to": [{ "key_code": "play_or_pause" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": { "mandatory": ["right_shift", "right_command"] }
+                                },
+                                "to": [{ "key_code": "fastforward" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "key_code": "volume_up" }],
                                 "type": "basic"
                             },
                             {
                                 "from": {
                                     "key_code": "m",
-                                    "modifiers": {
-                                        "mandatory": ["right_option"],
-                                        "optional": ["any"]
-                                    }
+                                    "modifiers": { "mandatory": ["right_option"] }
                                 },
                                 "to": [{ "key_code": "volume_down" }],
                                 "type": "basic"
                             },
                             {
                                 "from": {
-                                    "key_code": "comma",
-                                    "modifiers": {
-                                        "mandatory": ["right_option"],
-                                        "optional": ["any"]
-                                    }
+                                    "key_code": "n",
+                                    "modifiers": { "mandatory": ["right_option"] }
                                 },
-                                "to": [{ "key_code": "volume_up" }],
+                                "to": [{ "key_code": "mute" }],
                                 "type": "basic"
                             }
                         ]
