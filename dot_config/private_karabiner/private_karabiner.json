@@ -8,6 +8,27 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Caps Lock",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [{ "key_code": "caps_lock" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": { "mandatory": ["left_option"] }
+                                },
+                                "to": [{ "key_code": "display_brightness_increment" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Brightness Keys",
                         "manipulators": [
                             {
@@ -227,7 +248,7 @@
                             {
                                 "from": {
                                     "key_code": "spacebar",
-                                    "modifiers": { "mandatory": ["right_shift"] }
+                                    "modifiers": { "mandatory": ["left_control"] }
                                 },
                                 "to": [{ "key_code": "play_or_pause" }],
                                 "type": "basic"
@@ -235,7 +256,7 @@
                             {
                                 "from": {
                                     "key_code": "spacebar",
-                                    "modifiers": { "mandatory": ["right_shift", "right_command"] }
+                                    "modifiers": { "mandatory": ["left_control", "left_command"] }
                                 },
                                 "to": [{ "key_code": "fastforward" }],
                                 "type": "basic"
