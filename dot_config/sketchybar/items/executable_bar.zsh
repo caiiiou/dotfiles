@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-sketchybar --bar height=30 \
+sketchybar --bar height=29 \
 	color="$BAR_COLOR" \
 	shadow="$SHADOW" \
 	position=top \
@@ -8,7 +8,7 @@ sketchybar --bar height=30 \
 	padding_right=0 \
 	padding_left=0 \
 	corner_radius="$CORNER_RADIUS" \
-	y_offset=7 \
+	y_offset=8 \
 	margin=15 \
 	blur_radius=40 \
 	notch_width=200 \
