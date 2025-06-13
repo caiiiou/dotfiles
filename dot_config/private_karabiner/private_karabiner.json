@@ -92,12 +92,12 @@
                         ]
                     },
                     {
-                        "description": "Delete Word/Line with h",
+                        "description": "Custom Delete Word/Line",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "j",
-                                    "modifiers": { "mandatory": ["left_option", "left_control"] }
+                                    "modifiers": { "mandatory": ["left_control", "left_command"] }
                                 },
                                 "to": [
                                     {
@@ -109,8 +109,8 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "j",
-                                    "modifiers": { "mandatory": ["left_option", "left_control", "left_command"] }
+                                    "key_code": "f",
+                                    "modifiers": { "mandatory": ["left_control"] }
                                 },
                                 "to": [
                                     {
