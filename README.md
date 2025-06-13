@@ -1,3 +1,4 @@
-![pft9v9b4jt5f1](https://github.com/user-attachments/assets/a274c477-51fe-4979-b314-40b497d8eb94)
+![Uploading Screenshot 2025-06-13 at 03.11.09.png…]()
+
 
 **Fonts are Fira Code and FiraCode Nerd**
