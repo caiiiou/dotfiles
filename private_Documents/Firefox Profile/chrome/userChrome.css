@@ -30,3 +30,16 @@ body {
 ::placeholder {
   text-transform: var(--tf-text-transform);
 }
+
+/* Change text color of dropdown items */
+menupopup > menuitem,
+menupopup > menu {
+  color: #b4befe !important; /* Regular item text color */
+}
+
+/* Change text color of hovered or selected item */
+menupopup > menuitem[_moz-menuactive="true"],
+menupopup > menu[_moz-menuactive="true"] {
+  color: #1e1e2e !important; /* Highlighted item text color */
+  background-color: #b4befe !important;
+}
