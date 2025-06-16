@@ -63,7 +63,7 @@ automatically-unhide-macos-hidden-apps = true
     inner.horizontal = 20
     inner.vertical =   20
     outer.left =       20
-    outer.bottom =     20
+    outer.bottom =     6
     outer.top =        [{monitor."hp.*" = 55}, {monitor."dell.*" = 45},20]
     outer.right =      20
 
