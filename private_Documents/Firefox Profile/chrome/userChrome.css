@@ -43,3 +43,7 @@ menupopup > menu[_moz-menuactive="true"] {
   color: #1e1e2e !important; /* Highlighted item text color */
   background-color: #b4befe !important;
 }
+
+ #vertical-spacer {
+ display: none;
+ }
