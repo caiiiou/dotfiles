@@ -125,8 +125,8 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "y",
-                                    "modifiers": { "mandatory": ["left_control"] }
+                                    "key_code": "p",
+                                    "modifiers": { "mandatory": ["left_option", "left_command"] }
                                 },
                                 "to": [
                                     {
@@ -146,8 +146,8 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "n",
-                                    "modifiers": { "mandatory": ["left_control"] }
+                                    "key_code": "j",
+                                    "modifiers": { "mandatory": ["left_option", "left_command"] }
                                 },
                                 "to": [
                                     {
