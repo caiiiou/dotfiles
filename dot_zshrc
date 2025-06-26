@@ -134,3 +134,6 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export PATH="/opt/homebrew/sbin:$PATH"
 
 ~/Scripts/pokemon_lucky.zsh
+
+# Created by `pipx` on 2025-06-26 02:24:02
+export PATH="$PATH:/Users/caillou/.local/bin"
