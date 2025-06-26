@@ -129,11 +129,13 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias q-dl="qobuz-dl dl "
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/opt/homebrew/sbin:$PATH"
 
-~/Scripts/pokemon_lucky.zsh
-
 # Created by `pipx` on 2025-06-26 02:24:02
 export PATH="$PATH:/Users/caillou/.local/bin"
+
+~/Scripts/pokemon_lucky.zsh
