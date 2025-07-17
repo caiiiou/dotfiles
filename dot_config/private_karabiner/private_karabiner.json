@@ -38,13 +38,7 @@
                                     }
                                 ],
                                 "from": { "key_code": "up_arrow" },
-                                "to": [
-                                    { "key_code": "up_arrow" },
-                                    { "key_code": "up_arrow" },
-                                    { "key_code": "up_arrow" },
-                                    { "key_code": "up_arrow" },
-                                    { "key_code": "up_arrow" }
-                                ],
+                                "to": [{ "key_code": "up_arrow" }],
                                 "type": "basic"
                             },
                             {
