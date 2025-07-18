@@ -350,6 +350,14 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": { "mandatory": ["left_option", "left_control", "left_command"] }
+                                },
+                                "to": [{ "key_code": "rewind" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "comma",
                                     "modifiers": { "mandatory": ["right_option"] }
                                 },
