@@ -102,7 +102,7 @@ automatically-unhide-macos-hidden-apps = true
 
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
-    f20 = 'layout h_tiles h_accordion'
+    f1 = 'layout h_tiles h_accordion'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
     alt-h = 'focus left'
