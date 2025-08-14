@@ -137,4 +137,3 @@ export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="$PATH:/Users/caillou/.local/bin"
 
 ~/Scripts/pokemon_lucky.zsh
-export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
