@@ -8,6 +8,19 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Caps-Lock to F20",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "escape",
+                                    "modifiers": { "mandatory": ["left_option"] }
+                                },
+                                "to": [{ "key_code": "f20" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Vidhub Fullscreen & Volume Keys",
                         "manipulators": [
                             {
