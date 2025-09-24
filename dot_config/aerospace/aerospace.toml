@@ -64,7 +64,7 @@ automatically-unhide-macos-hidden-apps = true
     inner.vertical =   20
     outer.left =       20
     outer.bottom =     6
-    outer.top =        [{monitor."S27C900P" = 57},20]
+    outer.top =        [{monitor."S27C900P" = 57},25]
     outer.right =      20
 
 # 'main' binding mode declaration
