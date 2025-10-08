@@ -119,7 +119,6 @@ automatically-unhide-macos-hidden-apps = true
     # See: https://nikitabobko.github.io/AeroSpace/commands#resize
     alt-minus = 'resize smart -75'
     alt-equal = 'resize smart +75'
-    alt-u = 'flatten-workspace-tree'
     alt-s = 'balance-sizes'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
@@ -153,7 +152,7 @@ automatically-unhide-macos-hidden-apps = true
     # sticky is not yet supported https://github.com/nikitabobko/AeroSpace/issues/2
     #s = ['layout sticky tiling', 'mode main']
 
-    alt-h = ['join-with left', 'mode main']
-    alt-j = ['join-with down', 'mode main']
-    alt-k = ['join-with up', 'mode main']
-    alt-l = ['join-with right', 'mode main']
+    h = ['join-with left', 'mode main']
+    j = ['join-with down', 'mode main']
+    k = ['join-with up', 'mode main']
+    l = ['join-with right', 'mode main']
