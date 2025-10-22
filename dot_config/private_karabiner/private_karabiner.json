@@ -8,6 +8,29 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Vidhub Fullscreen",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com\\.mac\\.utility\\.media\\.hub"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": { "key_code": "y" },
+                                "to": [
+                                    {
+                                        "key_code": "y",
+                                        "modifiers": ["fn"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Caps-Lock to F20",
                         "manipulators": [
                             {
