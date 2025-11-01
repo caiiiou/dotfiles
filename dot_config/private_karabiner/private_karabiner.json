@@ -470,7 +470,7 @@
                         },
                         {
                             "from": { "key_code": "f7" },
-                            "to": [{ "consumer_key_code": "rewind" }]
+                            "to": [{ "consumer_key_code": "scan_previous_track" }]
                         },
                         {
                             "from": { "key_code": "f8" },
@@ -478,7 +478,7 @@
                         },
                         {
                             "from": { "key_code": "f9" },
-                            "to": [{ "consumer_key_code": "fast_forward" }]
+                            "to": [{ "consumer_key_code": "scan_next_track" }]
                         },
                         {
                             "from": { "key_code": "f10" },
@@ -612,7 +612,7 @@
                         },
                         {
                             "from": { "key_code": "f7" },
-                            "to": [{ "consumer_key_code": "rewind" }]
+                            "to": [{ "consumer_key_code": "scan_previous_track" }]
                         },
                         {
                             "from": { "key_code": "f8" },
@@ -620,7 +620,7 @@
                         },
                         {
                             "from": { "key_code": "f9" },
-                            "to": [{ "consumer_key_code": "fast_forward" }]
+                            "to": [{ "consumer_key_code": "scan_next_track" }]
                         },
                         {
                             "from": { "key_code": "f10" },
