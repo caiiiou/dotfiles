@@ -9,6 +9,7 @@
                 "rules": [
                     {
                         "description": "Vidhub Fullscreen + Color + Volume Keys",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "conditions": [
