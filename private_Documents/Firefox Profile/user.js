@@ -22,4 +22,4 @@ user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio", "2");
 user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant", 250);
 user_pref("general.smoothScroll.currentVelocityWeighting", "1");
 user_pref("general.smoothScroll.stopDecelerationWeighting", "1");
-user_pref("mousewheel.default.delta_multiplier_y", 150); // 250-400; adjust this number to your liking
+user_pref("mousewheel.default.delta_multiplier_y", 250); // 250-400; adjust this number to your liking
