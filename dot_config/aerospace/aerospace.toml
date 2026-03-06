@@ -156,7 +156,7 @@ automatically-unhide-macos-hidden-apps = true
         if.app-id = 'net.kovidgoyal.kitty' # Kitty
         run = 'move-node-to-workspace 0'
     [[on-window-detected]]
-        if.app-id = 'com.apple.safari' # Safari
+        if.app-id = 'com.apple.Safari' # Safari
         run = 'move-node-to-workspace 9'
 
 # 'service' binding mode declaration.
