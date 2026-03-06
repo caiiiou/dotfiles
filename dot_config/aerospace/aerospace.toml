@@ -143,6 +143,19 @@ automatically-unhide-macos-hidden-apps = true
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
     alt-e = 'mode service'
 
+    [[on-window-detected]]
+        if.app-id = 'com.apple.finder' # Finder
+        run = 'layout floating'
+    [[on-window-detected]]
+        if.app-id = 'com.firecore.infuse' # Infuse
+        run = 'move-node-to-workspace 9'
+    [[on-window-detected]]
+        if.app-id = 'org.mozilla.firefox' # Firefox
+        run = 'move-node-to-workspace Z'
+    [[on-window-detected]]
+        if.app-id = 'net.kovidgoyal.kitty' # Kitty
+        run = 'move-node-to-workspace 0'
+
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 [mode.service.binding]
