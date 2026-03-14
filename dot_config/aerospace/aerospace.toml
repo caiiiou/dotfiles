@@ -144,9 +144,6 @@ automatically-unhide-macos-hidden-apps = true
     alt-e = 'mode service'
 
     [[on-window-detected]]
-        if.app-id = 'com.apple.finder' # Finder
-        run = 'layout floating'
-    [[on-window-detected]]
         if.app-id = 'com.firecore.infuse' # Infuse
         run = 'move-node-to-workspace 9'
     [[on-window-detected]]
