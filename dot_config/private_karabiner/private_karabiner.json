@@ -359,7 +359,7 @@
                                     "key_code": "spacebar",
                                     "modifiers": { "mandatory": ["left_control", "left_command"] }
                                 },
-                                "to": [{ "key_code": "rewind" }],
+                                "to": [{ "key_code": "fastforward" }],
                                 "type": "basic"
                             },
                             {
@@ -367,7 +367,7 @@
                                     "key_code": "spacebar",
                                     "modifiers": { "mandatory": ["left_option", "left_control", "left_command"] }
                                 },
-                                "to": [{ "key_code": "fastforward" }],
+                                "to": [{ "key_code": "rewind" }],
                                 "type": "basic"
                             },
                             {
