@@ -439,7 +439,12 @@
                                     "key_code": "spacebar",
                                     "modifiers": { "mandatory": ["left_control", "left_command"] }
                                 },
-                                "to": [{ "consumer_key_code": "scan_next_track" }],
+                                "to": [
+                                    {
+                                        "consumer_key_code": "scan_next_track",
+                                        "halt": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -447,7 +452,12 @@
                                     "key_code": "spacebar",
                                     "modifiers": { "mandatory": ["left_option", "left_control", "left_command"] }
                                 },
-                                "to": [{ "consumer_key_code": "scan_previous_track" }],
+                                "to": [
+                                    {
+                                        "consumer_key_code": "scan_previous_track",
+                                        "halt": true
+                                    }
+                                ],
                                 "type": "basic"
                             },
                             {
