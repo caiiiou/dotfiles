@@ -90,7 +90,6 @@ zsh-autosuggestions
 zsh-syntax-highlighting
 )
 source $ZSH/oh-my-zsh.sh
-source $HOME/.cargo/env
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
