@@ -129,6 +129,8 @@ alias fastfetch="fastfetch --kitty-direct ~/.config/fastfetch/pngs/applejack.png
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
+export PATH="/usr/local/opt/Bento4/bin:$PATH"
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
