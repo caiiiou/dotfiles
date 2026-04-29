@@ -158,6 +158,9 @@ automatically-unhide-macos-hidden-apps = true
     [[on-window-detected]]
         if.app-id = 'com.apple.Safari' # Safari
         run = 'move-node-to-workspace 9'
+    [[on-window-detected]]
+        if.app-id = 'app.mp3tag.Mp3tag' # Mp3tag
+        run = 'layout floating'
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
