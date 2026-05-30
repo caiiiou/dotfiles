@@ -1,4 +1,4 @@
-# You can use it to add commands that run after login to macOS user session.
+# You can use it to add commands th*at run after login to macOS user session.
 # 'start-at-login' needs to be 'true' for 'after-login-command' to work
 # Available commands: https://nikitabobko.github.io/AeroSpace/commands
 after-login-command = []
@@ -64,7 +64,7 @@ automatically-unhide-macos-hidden-apps = true
     inner.vertical =   20
     outer.left =       20
     outer.bottom =     6
-    outer.top =        [{monitor."XG248QSG" = 57}, 25]
+    outer.top =        [{monitor."XG248QSG" = 57}, {monitor."HP" = 55}, 25]
     outer.right =      20
 
 # 'main' binding mode declaration
