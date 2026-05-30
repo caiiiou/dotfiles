@@ -125,6 +125,9 @@ alias lt='lsd --tree'
 #Fastfetch alias
 alias fastfetch="fastfetch --kitty-direct ~/.config/fastfetch/pngs/applejack.png --logo-width 20 --logo-padding-top 6 --logo-padding-right 10 --logo-padding-left 7"
 
+#Claude Code alias
+alias claude="claude /color cyan"
+
 #autosuggestions settings
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
