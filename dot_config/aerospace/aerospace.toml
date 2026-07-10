@@ -141,7 +141,7 @@ automatically-unhide-macos-hidden-apps = true
     alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
-    alt-e = 'mode service'
+    alt-z = 'mode service'
 
     [[on-window-detected]]
         if.app-id = 'com.apple.finder' # Finder
