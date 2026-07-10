@@ -129,7 +129,7 @@ alias fastfetch="fastfetch --kitty-direct ~/.config/fastfetch/pngs/applejack.png
 alias kepubify="kepubify -u -i --no-preserve-dirs"
 
 #Rsgain alias
-alias rsgain="rsgain easy --skip-existing -p main ~/Music/Liked\ Songs"
+alias rsgain="rsgain easy --skip-existing -p ~/.config/rsgain/presets/main.ini ~/Music"
 
 #autosuggestions settings
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
