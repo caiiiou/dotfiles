@@ -128,8 +128,10 @@ alias fastfetch="fastfetch --kitty-direct ~/.config/fastfetch/pngs/applejack.png
 #Kepubify alias
 alias kepubify="kepubify -u -i --no-preserve-dirs"
 
-#Rsgain alias
-alias rsgain="rsgain easy --skip-existing -p ~/.config/rsgain/presets/main.ini ~/Music"
+#Rsgain function: rsgain [folder] scans ~/Music/<folder>, bare rsgain scans all of ~/Music
+rsgain() {
+  command rsgain easy --skip-existing -p ~/.config/rsgain/presets/main.ini ~/Music"${*:+/$*}"
+}
 
 #autosuggestions settings
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
