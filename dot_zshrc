@@ -137,6 +137,11 @@ rsgain() {
   done
 }
 
+#Apple Music download: amdl [flags] <url> — downloads to ~/Music/Liked Songs, auto-numbers + ReplayGains
+#Auto-starts the decryptor if needed. URLs don't need quotes (noglob handles the '?').
+_amdl() { /Users/caillou/Coding/Apple-Music-Downloader/download.sh "$@" }
+alias amdl='noglob _amdl'
+
 #autosuggestions settings
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#A499BE,bold,"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
