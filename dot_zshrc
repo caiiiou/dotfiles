@@ -137,8 +137,8 @@ rsgain() {
   done
 }
 
-#Apple Music download: amdl [flags] <url> — downloads to ~/Music/Liked Songs, auto-numbers + ReplayGains
-#Auto-starts the decryptor if needed. URLs don't need quotes (noglob handles the '?').
+#Apple Music download: amdl [flags] <url> — to ~/Music/Liked Songs (or --chill for ~/Music/Chill), auto-numbers + ReplayGains
+#Auto-starts the decryptor if needed. URLs don't need quotes (noglob handles the '?'). A ?i= song link grabs just that track.
 _amdl() { /Users/caillou/Coding/Apple-Music-Downloader/download.sh "$@" }
 alias amdl='noglob _amdl'
 
