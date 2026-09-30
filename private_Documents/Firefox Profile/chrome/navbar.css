@@ -128,7 +128,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   }
 }
 
-@media (-moz-bool-pref: "sidebar.revamp") {
+@media -moz-pref("sidebar.revamp") {
   #nav-bar::before {
     margin: -1.35rem 0.75rem;
     left: 0;

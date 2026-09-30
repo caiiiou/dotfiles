@@ -32,7 +32,7 @@
  * ─[ MONOCHROME EXTENSIONS - Monochrome icons for some extensions ]───────
 */
 
-@media (-moz-bool-pref: "shyfox.enable.ext.mono.toolbar.icons") {
+@media -moz-pref("shyfox.enable.ext.mono.toolbar.icons") {
   /* Userchrome Toggle => sidebar icon */
   :is(.webextension-browser-action, .eom-addon-button):is(
       [data-extensionid="userchrome-toggle-extended@n2ezr.ru"]
@@ -144,7 +144,7 @@
 
 /* context menu */
 
-@media (-moz-bool-pref: "shyfox.enable.ext.mono.context.icons") {
+@media -moz-pref("shyfox.enable.ext.mono.context.icons") {
   #contentAreaContextMenu,
   #toolbar-context-menu,
   #unified-extensions-context-menu {
@@ -535,7 +535,7 @@
   }
 }
 
-@media (-moz-bool-pref: "shyfox.enable.context.menu.icons") {
+@media -moz-pref("shyfox.enable.context.menu.icons") {
   /* in page context menu */
   #contentAreaContextMenu {
     & > #context-back {
