@@ -33,6 +33,7 @@ alias lt='ls --tree'
 
 alias fastfetch="fastfetch --kitty-direct ~/.config/fastfetch/pngs/applejack.png --logo-width 20 --logo-padding-top 6 --logo-padding-right 10 --logo-padding-left 7"
 alias kepubify="kepubify -u -i --no-preserve-dirs"
+alias lg='lazygit'
 
 # rsgain [folder]: scans ~/Music/<folder>; bare = Liked Songs + Chill
 rsgain() {

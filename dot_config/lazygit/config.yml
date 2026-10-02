@@ -1,0 +1,5 @@
+git:
+  diffRenderers:
+    - type: stdinFilter
+      command: delta --paging=never
+      colorArg: always
