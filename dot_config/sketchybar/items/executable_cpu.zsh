@@ -4,7 +4,7 @@ COLOR="$LAVENDER"
 
 sketchybar --add item cpu right \
 	--set cpu \
-	update_freq=1 \
+	update_freq=3 \
 	icon.color="$COLOR" \
 	icon.padding_left="$ICON_PADDING_LEFT" \
 	label.color="$COLOR" \
