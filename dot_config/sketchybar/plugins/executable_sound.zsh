@@ -1,7 +1,6 @@
 #!/usr/bin/env zsh
 
-VOLUME=$(osascript -e "output volume of (get volume settings)")
-MUTED=$(osascript -e "output muted of (get volume settings)")
+read -r VOLUME MUTED <<<"$(osascript -e 'set v to get volume settings' -e 'return (output volume of v as text) & " " & (output muted of v as text)')"
 
 if [ "$MUTED" != "false" ]; then
 	ICON="󰖁"

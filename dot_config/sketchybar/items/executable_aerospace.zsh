@@ -2,7 +2,6 @@
 
 sketchybar --add item aerospace left \
     --set aerospace \
-    update_freq=3 \
     icon.padding_left="$ICON_PADDING_LEFT" \
     label.padding_right=18 \
     background.height="$BACKGROUND_HEIGHT" \

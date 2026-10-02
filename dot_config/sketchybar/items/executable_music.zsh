@@ -4,7 +4,6 @@ COLOR="$LAVENDER"
 
 sketchybar --add item music q \
 	--set music \
-	update_freq=1 \
 	icon.color="$COLOR" \
 	icon.padding_left="$ICON_PADDING_LEFT" \
 	icon.font.size=16 \
@@ -18,5 +17,9 @@ sketchybar --add item music q \
 	background.border_color="$COLOR" \
 	background.border_width="$BORDER_WIDTH" \
 	background.drawing="$BACKGROUND_DRAWING" \
-	associated_display=active \
-	script="$PLUGIN_DIR/music.zsh" 
+	associated_display=active
+
+# Restart the stream listener on reload
+pkill -f "$PLUGIN_DIR/music_stream.zsh"
+pkill -f "mediaremote-adapter.pl.*stream"
+"$PLUGIN_DIR/music_stream.zsh" >/dev/null 2>&1 &
