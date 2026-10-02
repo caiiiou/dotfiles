@@ -11,6 +11,7 @@ path=(/opt/homebrew/bin /opt/homebrew/sbin /usr/local/opt/Bento4/bin $path ~/.lo
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+zstyle ':omz:update' mode auto
 source $ZSH/oh-my-zsh.sh
 
 # History
